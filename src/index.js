@@ -31,7 +31,7 @@ function onSearch(e) {
     );
     return;
   }
-
+  page = 1;
   query = e.currentTarget.searchQuery.value.trim();
   clearContainer();
   onLoadMore();
